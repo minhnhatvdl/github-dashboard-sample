@@ -1,0 +1,36 @@
+.repoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 50px auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--backgroundColor);
+}
+.nameRepo {
+    margin: 60px 0 5px;
+    color: var(--colorInverse);
+}
+.languageRepo {
+    color: #c5c5c5;
+}
+.descriptionRepo {
+    margin: 40px auto;
+    color: var(--colorInverse);    
+}
+.infosRepo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.infosRepo span, .infosRepo span b {
+    color: var(--colorInverse);
+}

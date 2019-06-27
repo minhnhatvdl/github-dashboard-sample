@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--theme);
+    padding: 10px 20px;
+}
+.title {
+    text-decoration: none;
+}
+.title span {
+    color: var(--color);
+    font-size: 25px;
+    font-weight: bold;
+}

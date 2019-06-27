@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: var(--backgroundColor);
+  color: var(--colorText);
+  font-weight: 400;
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+/* burger menu css */
+button {
+  outline: 0;
+  border: none;
+}
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+}
+.bm-burger-bars {
+  background-color: var(--color);
+}
+.bm-burger-bars-hover {
+  background-color: var(--colorInverse);
+}
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-cross {
+  background-color: var(--colorInverse);
+}
+.bm-menu-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.bm-menu {
+  background: var(--backgroundColor);
+  border-right: 1px solid var(--colorInverse);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bm-morph-shape {
+  fill: var(--backgroundColorInverse);
+}
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+.bm-item {
+  display: inline-block;
+}
+.bm-overlay {
+  width: auto!important;
+  position: absolute!important;
+  left: 0;
+  top: 0;
+  background: none!important;
+}

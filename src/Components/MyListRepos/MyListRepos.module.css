@@ -1,0 +1,29 @@
+.listReposBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    align-content: center;
+}
+.listReposItems {
+    list-style-type: none;
+    margin: 20px;
+}
+.listReposItems li {
+    padding: 10px;
+}
+.reposItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--colorInverse);
+}
+.reposItem img {
+    margin-right: 40px; 
+}
+.invisibleBlock {
+    width: 50px;
+    visibility: hidden;
+}

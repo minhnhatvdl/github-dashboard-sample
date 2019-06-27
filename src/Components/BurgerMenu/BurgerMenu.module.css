@@ -1,0 +1,6 @@
+.link {
+    text-decoration: none;
+    color: var(--colorInverse);
+    outline: 0;
+    border: none;
+}
