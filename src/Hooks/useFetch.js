@@ -8,12 +8,10 @@ export const useFetch = (initialUrl, initialData, setLoading, setError) => {
       setError(false);
       setLoading(true);
       try {
-        setTimeout(async () => {
-          const res = await fetch(url);
-          const json = await res.json();
-          setData(json);
-          setLoading(false);
-        }, 1000);
+        const res = await fetch(url);
+        const json = await res.json();
+        setData(json);
+        setLoading(false);
       } catch (error) {
         setError(true);
         setLoading(false);
